@@ -15,20 +15,6 @@ var operator = $('#operation');
     {
       total = num1 + num2;
     }
-    
-    else if (operator === '-' )
-    {
-      total = num1 - num2;
-    }
-    
-    else if (operator === '*' )
-    {
-      total = num1 * num2;
-    }
-    else if (operator === '/' )
-    {
-      total = num1 / num2;
-    }
 
     return total
     
